@@ -1,4 +1,8 @@
 /autostart.conf
 /data/
+/data.previous/
+/game-filter.conf
 /result
+/user-lists/
+/.local/
 /zapret.nix
