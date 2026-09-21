@@ -1,14 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
   <title id="title">zapret-linux TUI launcher</title>
   <desc id="desc">Dark terminal-style screenshot of the zapret-linux interactive launcher.</desc>
-  <rect width="1200" height="760" rx="18" fill="#101419"/>
+  <rect width="1200" height="720" rx="18" fill="#101419"/>
   <rect x="24" y="24" width="1152" height="650" rx="10" fill="#0b0f13" stroke="#2b353d" stroke-width="2"/>
   <circle cx="54" cy="52" r="7" fill="#ff5f56"/><circle cx="78" cy="52" r="7" fill="#ffbd2e"/><circle cx="102" cy="52" r="7" fill="#27c93f"/>
   <text x="600" y="58" text-anchor="middle" fill="#7f8b94" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">zapret-linux — interactive launcher</text>
+  <text x="1148" y="58" text-anchor="end" fill="#5b6870" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">TUI PREVIEW · NOT LIVE</text>
   <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20">
     <path d="M72 100 H330 M750 100 H1144" stroke="#71808a" stroke-width="2" stroke-dasharray="10 8"/><text x="540" y="106" text-anchor="middle" fill="#37d6df" font-weight="700">zapret-linux / Flowseal v72.13</text>
-    <text x="72" y="143" fill="#71808a">|</text><rect x="88" y="119" width="1056" height="34" rx="3" fill="#19783b"/><text x="101" y="143" fill="#f4f7f8" font-weight="700"> ACTIVE: general (ALT)</text><text x="1144" y="143" text-anchor="end" fill="#71808a">|</text>
-    <text x="72" y="181" fill="#71808a">|</text><rect x="88" y="157" width="1056" height="34" rx="3" fill="#8b701d"/><text x="101" y="181" fill="#fff" font-weight="700"> Autostart: general (ALT)</text><text x="1144" y="181" text-anchor="end" fill="#71808a">|</text>
+    <text x="72" y="143" fill="#71808a">|</text><rect x="88" y="119" width="310" height="34" rx="3" fill="#19783b"/><text x="101" y="143" fill="#f4f7f8" font-weight="700"> ACTIVE: general (ALT)</text><text x="1144" y="143" text-anchor="end" fill="#71808a">|</text>
+    <text x="72" y="181" fill="#71808a">|</text><rect x="88" y="157" width="334" height="34" rx="3" fill="#8b701d"/><text x="101" y="181" fill="#fff" font-weight="700"> Autostart: general (ALT)</text><text x="1144" y="181" text-anchor="end" fill="#71808a">|</text>
     <text x="72" y="219" fill="#71808a">|  Game filter: tcp</text><text x="1144" y="219" text-anchor="end" fill="#71808a">|</text>
     <text x="72" y="257" fill="#71808a">|</text><text x="1144" y="257" text-anchor="end" fill="#71808a">|</text>
     <rect x="88" y="270" width="1056" height="37" rx="3" fill="#174b8e"/><text x="101" y="296" fill="#f4f7f8" font-weight="700"> &gt; general (ALT)</text><text x="1144" y="296" text-anchor="end" fill="#174b8e">|</text>
@@ -22,5 +23,5 @@
     <text x="72" y="600" fill="#71808a">|  [g] Game filter  [u] Update  [q] Quit</text><text x="1144" y="600" text-anchor="end" fill="#71808a">|</text>
     <text x="72" y="638" fill="#71808a">+</text><path d="M86 632 H1130" stroke="#71808a" stroke-width="2"/><text x="1144" y="638" text-anchor="end" fill="#71808a">+</text>
   </g>
-  <text x="600" y="716" text-anchor="middle" fill="#5b6870" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15">Representative TUI view — rendered from the launcher layout</text>
+  <text x="600" y="700" text-anchor="middle" fill="#5b6870" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15">Representative TUI view — rendered from the launcher layout</text>
 </svg>
