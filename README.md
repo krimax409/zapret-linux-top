@@ -4,6 +4,24 @@
 [zapret-discord-youtube](https://github.com/Flowseal/zapret-discord-youtube).
 Работает на поддерживаемых Linux-архитектурах без NixOS и без системного пакета zapret.
 
+<p align="center">
+  <img src="docs/images/tui-overview.svg" alt="Интерактивный TUI-лаунчер zapret-linux" width="900">
+</p>
+
+<p align="center">
+  <strong>Интерактивный launcher для выбора и запуска стратегий обхода</strong>
+</p>
+
+## Как это устроено
+
+<p align="center">
+  <img src="docs/images/architecture.svg" alt="Архитектура zapret-linux: launcher, Flowseal, nfqws и NFQUEUE" width="900">
+</p>
+
+`zapret.sh` управляет локальным `nfqws`, проверяет набор стратегий Flowseal и
+применяет правила `iptables`/`ip6tables` через NFQUEUE. Пользовательские списки
+хранятся отдельно и переживают обновления данных.
+
 ## Запуск
 
 ```bash
@@ -24,6 +42,10 @@ sudo ./zapret.sh
 - `g` — переключить игровой фильтр;
 - `u` — безопасно обновить данные Flowseal;
 - `q` — выйти.
+
+> Изображение выше — воспроизводимая SVG-иллюстрация реального layout TUI,
+> собранная по рендереру `draw_menu()` в `zapret.sh`. Она не выполняет сетевые
+> команды и не подменяет live-запуск.
 
 ## Игровой фильтр
 
