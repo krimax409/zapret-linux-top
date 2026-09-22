@@ -5,7 +5,7 @@
 Работает на поддерживаемых Linux-архитектурах без NixOS и без системного пакета zapret.
 
 <p align="center">
-  <img src="docs/images/tui-overview.svg" alt="Интерактивный TUI-лаунчер zapret-linux" width="900">
+  <img src="docs/images/tui-overview.png" alt="Запущенный TUI-лаунчер zapret-linux: список стратегий, автозапуск и горячие клавиши" width="549">
 </p>
 
 <p align="center">
@@ -43,9 +43,7 @@ sudo ./zapret.sh
 - `u` — безопасно обновить данные Flowseal;
 - `q` — выйти.
 
-> Изображение выше — воспроизводимая SVG-иллюстрация реального layout TUI,
-> собранная по рендереру `draw_menu()` в `zapret.sh`. Она не выполняет сетевые
-> команды и не подменяет live-запуск.
+На снимке `nfqws` остановлен; выделенную стратегию можно запустить клавишей `Enter`.
 
 ## Игровой фильтр
 
