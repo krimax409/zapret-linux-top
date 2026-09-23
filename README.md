@@ -14,13 +14,12 @@
 
 ## Как это устроено
 
-<p align="center">
-  <img src="docs/images/architecture.svg" alt="Архитектура zapret-linux: launcher, Flowseal, nfqws и NFQUEUE" width="900">
-</p>
-
-`zapret.sh` управляет локальным `nfqws`, проверяет набор стратегий Flowseal и
-применяет правила `iptables`/`ip6tables` через NFQUEUE. Пользовательские списки
-хранятся отдельно и переживают обновления данных.
+```mermaid
+flowchart LR
+    flowseal[Стратегии Flowseal<br/>+ свои списки при необходимости] --> launcher[zapret.sh]
+    launcher --> nfqws[Локальный nfqws]
+    launcher --> rules[Необходимые правила iptables / ip6tables]
+```
 
 ## Запуск
 
